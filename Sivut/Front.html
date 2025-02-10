@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>Portfolio</title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet " href="grafiikka.css">
+    </head>
+    <body>
+        <header class="header">
+            <a href="#home" class="logo">Niko
+                <span>Rantamäki</span>
+            </a>
+            <nav class="navbar">
+                <a href="#home" class="active">Home</a>
+                <a href="#skills" >Skills</a>
+               
+                <a href="#projects" >Projects</a>
+                <a href="#contacts">Contact</a>
+
+            </nav>
+        </header>
+
+        <section id="home" class="home">
+            <div class="home-content">
+                <h1 class = "context-content">Hello
+                <ul class= "running-text">
+                    <li>
+                        <p>Developers</p>
+                    </li>
+                    <li>
+                        <p>Employers</p>
+                    </li>
+                    <li>
+                        <p>World</p>
+                    </li>
+                     
+                </ul>
+                </h1>
+
+                <h2>My name is <span>Niko Rantamäki</span></h2>
+                    
+               
+                <h3>A first year Computer Science student at the University of Oulu with a passion for technology, sustainable development and problem solving.</h3>
+
+                <div class="social-icons">
+                    <a href="https://github.com/Rantsuri" target="_blank" rel="noopener noreferrer">
+                      <img src="github-logo-24.png" alt="GitHub" />
+                    </a>
+                    <a href="https://www.linkedin.com/in/niko-rantamaki" target="_blank" rel="noopener noreferrer">
+                      <img src="linkedin-logo-24.png" alt="LinkedIn" />
+                    </a>
+                  </div>
+            <div class="btn-group">
+                <a href="#contacts" class="btn">contact</a>
+            </div>
+            </div>
+                <div class="kuva">
+                    <img src="omakuva.jpg" alt="">
+                </div>
+            
+        </section>
+
+        <section id = "skills" class="skills">
+            <div class="skills-content">
+          <h2>Skills</h2>
+          <div class="skills-container">
+              <div class="skill">
+                 
+                  <h3>HTML 5</h3>
+                  <p>Basics of web building and structuring a website</p>
+              </div>
+              <div class="skill">
+                  
+                  <h3>CSS 3</h3>
+                  <p>Basics of web design and playing with animations</p>
+              </div>
+              <div class="skill">
+                  
+                  <h3>Java</h3>
+                  <p>intermediate knowledge, Testing, UML models, databases </p>
+              </div>
+              <div class="skill">
+                 
+                  <h3>C</h3>
+                  <p>intermediate knowledge, small-scale projects like an ATM</p>
+              </div>
+              <div class="skill">
+                 
+                <h3>CommandLine</h3>
+                <p>Proficient in basic command-line operations (Linux/Windows)</p>
+            </div>
+            <div class="skill">
+                 
+                <h3>GitLab</h3>
+                <p>Basics in version control, issue tracking and workflows</p>
+            </div>
+             
+              
+          </div>
+        </div>
+      </section>
+
+      
+
+        <section id="projects" class="projects">
+            <div class="projects-content">
+              <h2><span>Projects</span></h2>
+              <div class="project-container">
+                <div class="project-box1">
+                   <div class="title">ATM</div>
+                  <p>Functional ATM machine simulation program built in C. The program replicates essential ATM functionalities such as Withdrawing funds, Checking account balances, Handling invalid inputs, and basic security features.</p>
+                </div>
+                <div class="project-box2">
+                    <div class="title">Portfolio</div>
+                  <p>This personal portfolio was made using HTML, CSS and JavaScript. It showcases the basic functionalities of a possible website and the design I can do with CSS.</p>
+                </div>
+                
+              </div>
+              
+              <div class="project-box3">
+                <div class="title">CerebraStyles</div>
+                <p>A web development project founded by my colleagues and myself. Our aim is to deliver small-scale but tailored website solutions for different individuals and businesses.</p>
+              </div>
+            </div>
+          </section>
+        
+
+        <section id="contacts" class="contacts">
+            <div class="contacts-content">
+            <h2><span>Contact</span></h2>
+
+            <form id="contactForm">
+                <input class="slowed"type="text" placeholder="Name" required>
+                 <input class="slowed"type="email" placeholder="Email" required>
+                 <textarea class="slowed"placeholder="Your Message" rows="4" required></textarea>
+                 <button type="submit">Send</button>
+             </form>
+        </div>
+        </section>
+      
+        <script src="back.js" async defer></script>
+    </body>
+</html>
