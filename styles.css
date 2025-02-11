@@ -536,124 +536,92 @@ span{
  .email-link:hover {
   color: #ffeacf;
 }
-/* Mobile Responsive Styles */
 @media only screen and (max-width: 768px) {
   html {
-    font-size: 50%; /* Reduce base font size for smaller screens */
+    font-size: 50%;
   }
 
   .header {
-    padding: 2rem 5%; /* Reduce padding for smaller screens */
+    padding: 1rem 5%;
   }
 
-  .logo {
-    font-size: 3rem; /* Reduce logo size */
+  #menu-icon {
+    display: block;
+  }
+
+  .navbar {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    background: rgba(168, 167, 167, 0.9);
+    backdrop-filter: blur(10px);
+    flex-direction: column;
+    align-items: center;
+    padding: 1rem 0;
+    display: none;
+  }
+
+  .navbar.active {
+    display: flex;
   }
 
   .navbar a {
-    font-size: 2rem; /* Reduce navbar link size */
-    margin-left: 2rem; /* Reduce margin between navbar links */
+    margin: 1rem 0;
   }
 
   .home {
-    flex-direction: column; /* Stack home content vertically */
-    gap: 5rem; /* Reduce gap between elements */
-    text-align: center; /* Center align text */
+    flex-direction: column;
+    text-align: center;
+    gap: 2rem;
+    padding: 10rem 5%;
   }
 
   .home-content h1 {
-    font-size: 5rem; /* Reduce heading size */
+    font-size: 4rem;
   }
 
   .home-content h2 {
-    font-size: 4rem; /* Reduce heading size */
+    font-size: 3rem;
   }
 
   .home-content h3 {
-    font-size: 2.5rem; /* Reduce heading size */
+    font-size: 2rem;
   }
 
   .kuva img {
-    width: 70vw; /* Make image smaller */
-    top: 1rem; /* Adjust position */
+    width: 70vw;
+    top: 1rem;
   }
 
   .btn {
-    padding: 0.8rem 2rem; /* Reduce button padding */
-    font-size: 1.4rem; /* Reduce button font size */
+    padding: 0.8rem 2rem;
+    font-size: 1.4rem;
   }
 
   .running-text > li > p {
-    font-size: 4rem; /* Reduce running text size */
+    font-size: 3rem;
   }
 
   .project-box1, .project-box2, .project-box3 {
-    width: 80vw; /* Make project boxes full width */
-    height: 20vh; /* Adjust height */
-    margin: 1rem auto; /* Center project boxes */
+    width: 90vw;
+    height: 20vh;
+    margin: 1rem auto;
   }
 
   .skills-container {
-    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); /* Adjust grid layout */
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
   }
 
   .skill {
-    height: 20vh; /* Adjust skill box height */
+    height: 15vh;
   }
 
   #contactForm input, #contactForm textarea, #contactForm button {
-    width: 80vw; /* Make form elements full width */
+    width: 90vw;
   }
 
   .contacts-content span {
-    font-size: 4rem; /* Reduce contact heading size */
-  }
-}
-
-@media only screen and (max-width: 480px) {
-  html {
-    font-size: 45%; /* Further reduce base font size for very small screens */
-  }
-
-  .navbar a {
-    font-size: 1.8rem; /* Further reduce navbar link size */
-    margin-left: 1rem; /* Further reduce margin between navbar links */
-  }
-
-  .home-content h1 {
-    font-size: 4rem; /* Further reduce heading size */
-  }
-
-  .home-content h2 {
-    font-size: 3rem; /* Further reduce heading size */
-  }
-
-  .home-content h3 {
-    font-size: 2rem; /* Further reduce heading size */
-  }
-
-  .kuva img {
-    width: 80vw; /* Further reduce image size */
-  }
-
-  .running-text > li > p {
-    font-size: 3rem; /* Further reduce running text size */
-  }
-
-  .project-box1, .project-box2, .project-box3 {
-    width: 90vw; /* Further adjust project box width */
-    height: 15vh; /* Further adjust height */
-  }
-
-  .skill {
-    height: 15vh; /* Further adjust skill box height */
-  }
-
-  #contactForm input, #contactForm textarea, #contactForm button {
-    width: 90vw; /* Further adjust form element width */
-  }
-
-  .contacts-content span {
-    font-size: 3rem; /* Further reduce contact heading size */
+    font-size: 3rem;
   }
 }
