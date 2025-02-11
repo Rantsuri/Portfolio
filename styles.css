@@ -536,6 +536,8 @@ span{
  .email-link:hover {
   color: #ffeacf;
 }
+
+
 @media only screen and (max-width: 768px) {
   html {
     font-size: 50%;
