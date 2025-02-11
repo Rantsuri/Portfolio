@@ -603,6 +603,10 @@ span{
 
   .running-text > li > p {
     font-size: 3rem;
+    height: 300;
+    margin-top: 0.6rem;
+    line-height: 0.5;
+    
   }
 
   .project-box1, .project-box2, .project-box3 {
